@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile default="true" name="Default" enabled="true" />
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="spring5-autowire" />
+        <module name="Spring5-transaction" />
+        <module name="Spring5-annotations" />
+        <module name="Spring5-HelloSpring" />
+        <module name="Spring5-appConfigure" />
+        <module name="mybatis-spring" />
+        <module name="Spring5-IOC" />
+        <module name="Spring5-AOP" />
+        <module name="spring-依赖注入（DI）" />
+      </profile>
+    </annotationProcessing>
+  </component>
+</project>

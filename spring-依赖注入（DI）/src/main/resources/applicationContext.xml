@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans
+        https://www.springframework.org/schema/beans/spring-beans.xsd">
+    <bean id="address" class="com.wang.pojo.Address">
+        <property name="address" value="张三之家"></property>
+    </bean>
+
+    <bean id="student" class="com.wang.pojo.Student">
+        <!--第一种：普通值注入 value-->
+        <property name="name" value="张三"/>
+        <!--Bean注入，ref-->
+        <property name="address" ref="address">
+
+        </property>
+        <!--数组注入，ref-->
+        <property name="books">
+            <array>
+                <value>深入理解JVM</value>
+                <value>操作系统</value>
+                <value>计算机网络</value>
+                <value>编译原理</value>
+            </array>
+        </property>
+        <!--List-->
+        <property name="hobbies">
+            <list>
+                <value>敲代码</value>
+                <value>听歌</value>
+                <value>看电影</value>
+            </list>
+        </property>
+        <!--Map-->
+        <property name="card">
+            <map>
+                <entry key="饭卡" value="00000000000"/>
+                <entry key="水卡" value="11111111"/>
+            </map>
+        </property>
+        <!--Set-->
+        <property name="games">
+            <set>
+                <value>LOL</value>
+                <value>BOB</value>
+            </set>
+        </property>
+        <!--null-->
+        <property name="wife">
+            <null/>
+        </property>
+        <!--Properties-->
+        <property name="info">
+            <props>
+                <prop key="driver">com.mysql.jdbc.Driver</prop>
+                <prop key="url">jdbc:mysql://localhost:3306/mybatis?useSSL=false&amp;useUnicode=true&amp;characterEncoding=UTF-8</prop>
+                <prop key="username">root</prop>
+                <prop key="password">123456</prop>
+            </props>
+        </property>
+    </bean>
+</beans>

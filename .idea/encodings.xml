@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="Encoding">
+    <file url="file://$PROJECT_DIR$/Spring5-AOP/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/Spring5-AOP/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/Spring5-HelloSpring/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/Spring5-HelloSpring/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/Spring5-IOC/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/Spring5-IOC/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/Spring5-annotations/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/Spring5-annotations/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/Spring5-appConfigure/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/Spring5-appConfigure/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/mybatis-spring/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/mybatis-spring/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/spring-依赖注入（DI）/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/spring5-autowire/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/spring5-autowire/src/main/resources" charset="UTF-8" />
+  </component>
+</project>

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF8" ?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<!--namespace绑定一个对应的Dao/Mapper接口-->
+<mapper namespace="com.wang.mapper.UserMapper">
+
+    <!--sql-->
+    <select id="selectUser" resultType="user">
+        select * from mybatis.user
+    </select>
+
+    <insert id="addUser" parameterType="com.wang.pojo.User">
+        insert into user (id,name,pwd) values (#{id},#{name},#{pwd})
+    </insert>
+
+    <delete id="deleteUser" parameterType="int">
+        deletes from user where id = #{id}
+    </delete>
+
+</mapper>
